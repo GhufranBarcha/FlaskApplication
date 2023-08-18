@@ -15,7 +15,7 @@ from flask import Flask, redirect, url_for, render_template, request
 app = Flask(__name__)
 
 # Set the path to the template folder
-app.template_folder = 'D:/Flask/FlaskApplication/templatess'
+app.template_folder = 'D:/Flask/flaskPractice/templates'
 
 @app.route("/")
 def welcome():

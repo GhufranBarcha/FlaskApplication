@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Input</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'css/style.css') }}">
+    <script>
+        alert("This page has been loaded")
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Flask Tutorial</h1>
+
+        <form action="/submit" method="post">
+            <label for="science">Science:</label>
+            <input type="text" name="science" id="science" value="0"><br>
+
+            <label for="math">Math:</label>
+            <input type="text" name="math" id="math" value="0"><br>
+
+            <label for="english">English:</label>
+            <input type="text" name="english" id="english" value="0"><br>
+
+            <label for="cvt">CVT:</label>
+            <input type="text" name="CVT" id="CVT" value="0"><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
